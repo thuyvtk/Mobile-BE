@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BE_Laundry\\Laundry\\GIatDo\\GiatDo.Data\\GiatDo.Data.csproj": {}
+    "C:\\Users\\ASUS\\Desktop\\Thuy\\Mobile-BE\\GIatDo\\GiatDo.Data\\GiatDo.Data.csproj": {}
   },
   "projects": {
-    "D:\\BE_Laundry\\Laundry\\GIatDo\\GiatDo.Data\\GiatDo.Data.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\Thuy\\Mobile-BE\\GIatDo\\GiatDo.Data\\GiatDo.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BE_Laundry\\Laundry\\GIatDo\\GiatDo.Data\\GiatDo.Data.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\Thuy\\Mobile-BE\\GIatDo\\GiatDo.Data\\GiatDo.Data.csproj",
         "projectName": "GiatDo.Data",
-        "projectPath": "D:\\BE_Laundry\\Laundry\\GIatDo\\GiatDo.Data\\GiatDo.Data.csproj",
-        "packagesPath": "C:\\Users\\VO THI KIM THUY\\.nuget\\packages\\",
-        "outputPath": "D:\\BE_Laundry\\Laundry\\GIatDo\\GiatDo.Data\\obj\\",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\Thuy\\Mobile-BE\\GIatDo\\GiatDo.Data\\GiatDo.Data.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\Thuy\\Mobile-BE\\GIatDo\\GiatDo.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\VO THI KIM THUY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,8 +27,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\BE_Laundry\\Laundry\\GIatDo\\GiatDo.Model\\GiatDo.Model.csproj": {
-                "projectPath": "D:\\BE_Laundry\\Laundry\\GIatDo\\GiatDo.Model\\GiatDo.Model.csproj"
+              "C:\\Users\\ASUS\\Desktop\\Thuy\\Mobile-BE\\GIatDo\\GiatDo.Model\\GiatDo.Model.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Desktop\\Thuy\\Mobile-BE\\GIatDo\\GiatDo.Model\\GiatDo.Model.csproj"
               }
             }
           }
@@ -79,27 +76,30 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\BE_Laundry\\Laundry\\GIatDo\\GiatDo.Model\\GiatDo.Model.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\Thuy\\Mobile-BE\\GIatDo\\GiatDo.Model\\GiatDo.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BE_Laundry\\Laundry\\GIatDo\\GiatDo.Model\\GiatDo.Model.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\Thuy\\Mobile-BE\\GIatDo\\GiatDo.Model\\GiatDo.Model.csproj",
         "projectName": "GiatDo.Model",
-        "projectPath": "D:\\BE_Laundry\\Laundry\\GIatDo\\GiatDo.Model\\GiatDo.Model.csproj",
-        "packagesPath": "C:\\Users\\VO THI KIM THUY\\.nuget\\packages\\",
-        "outputPath": "D:\\BE_Laundry\\Laundry\\GIatDo\\GiatDo.Model\\obj\\",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\Thuy\\Mobile-BE\\GIatDo\\GiatDo.Model\\GiatDo.Model.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\Thuy\\Mobile-BE\\GIatDo\\GiatDo.Model\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\VO THI KIM THUY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -135,10 +135,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

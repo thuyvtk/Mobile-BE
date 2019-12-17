@@ -68,3 +68,16 @@ D:\BE_Laundry\Laundry\GIatDo\GiatDo.Service\obj\Release\netcoreapp2.2\GiatDo.Ser
 D:\BE_Laundry\Laundry\GIatDo\GiatDo.Service\obj\Release\netcoreapp2.2\GiatDo.Service.csproj.CopyComplete
 D:\BE_Laundry\Laundry\GIatDo\GiatDo.Service\obj\Release\netcoreapp2.2\GiatDo.Service.dll
 D:\BE_Laundry\Laundry\GIatDo\GiatDo.Service\obj\Release\netcoreapp2.2\GiatDo.Service.pdb
+C:\Users\ASUS\Desktop\Thuy\Mobile-BE\GIatDo\GiatDo.Service\bin\Release\netcoreapp2.2\GiatDo.Service.deps.json
+C:\Users\ASUS\Desktop\Thuy\Mobile-BE\GIatDo\GiatDo.Service\bin\Release\netcoreapp2.2\GiatDo.Service.dll
+C:\Users\ASUS\Desktop\Thuy\Mobile-BE\GIatDo\GiatDo.Service\bin\Release\netcoreapp2.2\GiatDo.Service.pdb
+C:\Users\ASUS\Desktop\Thuy\Mobile-BE\GIatDo\GiatDo.Service\bin\Release\netcoreapp2.2\GiatDo.Data.dll
+C:\Users\ASUS\Desktop\Thuy\Mobile-BE\GIatDo\GiatDo.Service\bin\Release\netcoreapp2.2\GiatDo.Model.dll
+C:\Users\ASUS\Desktop\Thuy\Mobile-BE\GIatDo\GiatDo.Service\bin\Release\netcoreapp2.2\GiatDo.Data.pdb
+C:\Users\ASUS\Desktop\Thuy\Mobile-BE\GIatDo\GiatDo.Service\bin\Release\netcoreapp2.2\GiatDo.Model.pdb
+C:\Users\ASUS\Desktop\Thuy\Mobile-BE\GIatDo\GiatDo.Service\obj\Release\netcoreapp2.2\GiatDo.Service.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Thuy\Mobile-BE\GIatDo\GiatDo.Service\obj\Release\netcoreapp2.2\GiatDo.Service.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Thuy\Mobile-BE\GIatDo\GiatDo.Service\obj\Release\netcoreapp2.2\GiatDo.Service.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Thuy\Mobile-BE\GIatDo\GiatDo.Service\obj\Release\netcoreapp2.2\GiatDo.Service.csproj.CopyComplete
+C:\Users\ASUS\Desktop\Thuy\Mobile-BE\GIatDo\GiatDo.Service\obj\Release\netcoreapp2.2\GiatDo.Service.dll
+C:\Users\ASUS\Desktop\Thuy\Mobile-BE\GIatDo\GiatDo.Service\obj\Release\netcoreapp2.2\GiatDo.Service.pdb

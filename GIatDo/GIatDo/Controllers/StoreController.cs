@@ -125,16 +125,40 @@ namespace GIatDo.Controllers
             var AccountId = _accountService.GetAccounts(a => a.User_Id.Equals(Id)).ToList();
             if (!AccountId.Any())
             {
-                return NotFound();
+
+                CreateAccount(Id);
+                //get created account 
+                var accountCreated = _accountService.GetAccounts(t => t.User_Id.Equals(Id)).ToList();
+                Store customer = CreateStore(accountCreated);
+                return Ok(customer.Adapt<CustomerVM>());
             }
             var result = _storeService.GetStores(c => c.AccountId == AccountId[0].Id).ToList();
             if (!result.Any())
             {
-                return NotFound();
+                Store customer = CreateStore(AccountId);
+                return Ok(customer.Adapt<CustomerVM>());
             }
             return Ok(result[0].Adapt<StoreVM>());
         }
 
+        private Account CreateAccount(String UId)
+        {
+            Account account = new Account();
+            account.User_Id = UId;
+            _accountService.CreateAccount(account);
+            _accountService.Save();
+            return account;
+        }
+
+        private Store CreateStore(List<Account> accountCreated)
+        {
+            Store store = new Store();
+            store.Rate = 0;
+            store.AccountId = accountCreated[0].Id;
+            _storeService.CreateStore(store);
+            _storeService.Save();
+            return store;
+        }
 
         [HttpGet("StoreUserHasUse")]
         public ActionResult GetStore(string CustomerId, string ServiceTypeId)

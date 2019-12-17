@@ -43,11 +43,8 @@ namespace GIatDo.Controllers
             var timeCreate = DateTime.Now;
             DateTime? timeDelivery = model.DeliveryTime;
             DateTime? takeTime = model.TakeTime;
-            var checkSlot = _slotService.GetSlots().Where(t1 => t1.TimeStart <= timeCreate.TimeOfDay).Where(t2 => t2.TimeEnd >= timeCreate.TimeOfDay).ToList();
             var deliver = _slotService.GetSlots().Where(t1 => t1.TimeStart <= timeDelivery.Value.TimeOfDay).Where(t2 => t2.TimeEnd >= timeDelivery.Value.TimeOfDay).ToList();
             var take = _slotService.GetSlots().Where(t1 => t1.TimeStart <= takeTime.Value.TimeOfDay).Where(t2 => t2.TimeEnd >= takeTime.Value.TimeOfDay).ToList();
-            if (checkSlot.Any())
-            {
                 var checkCus = _customerService.GetCustomer(model.CustomerId.Value);
                 if (checkCus == null)
                 {
@@ -64,11 +61,6 @@ namespace GIatDo.Controllers
                  _hub.Clients.All.SendAsync("transferchartdata", "Có Đơn hàng được tạo");
                 return Ok(201);
 
-            }
-            else
-            {
-                return BadRequest("Dont Have Any Slot");
-            }
         }
 
         [HttpGet("GetByCustomerId")]
