@@ -245,6 +245,31 @@ namespace GIatDo.Controllers
             return Ok();
         }
 
+
+        [HttpGet("GetByShipperAndStatus")]
+        public ActionResult GetByShipperAndStatus(Guid shipperTake, String status)
+        {
+            try
+            {
+                var order = _orderService.GetOrders(t => !t.IsDelete);
+                var orderService = _orderServiceService.GetOrderServices(t => !t.IsDelete);
+                var service = _serviceService.GetServices(t => !t.IsDelete);
+                var temp = from t in order
+                           join o in orderService on t.Id equals (o.OrderId)
+                           join s in service on o.ServiceId equals (s.Id)
+                           where t.Status.Equals(status)
+                           where t.ShipperTakeId.Equals(shipperTake)
+                           select t;
+                List<Order> list = temp.ToList();
+                return Ok(list.Adapt<List<OrderVM>>());
+            }
+            catch (Exception e)
+            {
+                e.ToString();
+            }
+            return Ok();
+        }
+
         [HttpPut("RateStore")]
         public ActionResult RateStore(Guid Id, float Rate)
         {

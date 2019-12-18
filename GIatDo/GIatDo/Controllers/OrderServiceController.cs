@@ -29,6 +29,12 @@ namespace GIatDo.Controllers
             return Ok(_orderServiceService.GetOrderService(Id).Adapt<OrderServiceVM>());
         }
 
+        [HttpGet("GetByOrderId")]
+        public ActionResult GetOrderDetail(Guid Id)
+        {
+            return Ok(_orderServiceService.GetOrderServices(o => o.OrderId == Id).Adapt<List<OrderServiceVM>>());
+        }
+
         [HttpGet("GetAll")]
         public ActionResult GetAllOrderService()
         {
