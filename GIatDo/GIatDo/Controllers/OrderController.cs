@@ -390,8 +390,8 @@ namespace GIatDo.Controllers
         [HttpPut("SetOrderStatus")]
         public ActionResult SetOrderStatus(Guid Id,string Status)
         {
-            string[] statues = { "ongoing","taken","onwarehousetake","onstore","washed",
-            "onwarehousedelivery","ondelivery","done","cancel"};
+            string[] statues = { "ongoing","onTake","taken","onstore","washed",
+            "ondelivery","done","cancel"};
             if (statues.Contains(Status))
             {
                 var order = _orderService.GetOrder(Id);
